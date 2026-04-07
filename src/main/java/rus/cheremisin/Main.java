@@ -1,4 +1,8 @@
-package rus.cheremisin;
+package main.java.rus.cheremisin;
+
+import rus.cheremisin.geomlibrary.Circle;
+import rus.cheremisin.geomlibrary.Rectangle;
+import rus.cheremisin.geomlibrary.Triangle;
 
 public class Main {
     public static void main(String[] args) {
