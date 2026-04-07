@@ -41,12 +41,4 @@ public class Triangle extends Shape {
         return sideC;
     }
 
-    public void setSides(double sideA, double sideB, double sideC) {
-        if (!isCorrectTriangle(sideA, sideB, sideC)) {
-            throw new IllegalArgumentException("Стороны не образуют треугольник");
-        }
-        this.sideA = sideA;
-        this.sideB = sideB;
-        this.sideC = sideC;
-    }
 }
